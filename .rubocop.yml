@@ -1,0 +1,9 @@
+
+Metrics/LineLength:
+  Max: 160
+
+Style/TrailingComma:
+  EnforcedStyleForMultiline: comma
+
+Style/WordArray:
+  MinSize: 5

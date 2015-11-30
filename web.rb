@@ -1,4 +1,6 @@
 require 'sinatra/base'
+require 'sinatra/activerecord'
+require './environments'
 
 module SlackGMBot
   class Web < Sinatra::Base

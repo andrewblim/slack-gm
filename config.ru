@@ -9,7 +9,7 @@ Thread.new do
   rescue Exception => ex
     STDERR.puts "ERROR: #{ex}"
     STDERR.puts ex.backtrace
-    raise e
+    raise ex
   end
 end
 
